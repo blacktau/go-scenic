@@ -1,0 +1,6 @@
+initial-fetch: 10
+log-level: info
+providers:
+    - bing
+    - unsplash
+folder: ./dest
