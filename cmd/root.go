@@ -60,6 +60,7 @@ func initConfig() {
 	viper.SetDefault("providers", []string{"bing", "unsplash"})
 	viper.SetDefault("initial-fetch", 10)
 	viper.SetDefault("folder", "$HOME/Pictures/wallpapers")
+	viper.SetDefault("provider-folders", true)
 
 	// If a config file is found, read it in.
 	if err := viper.ReadInConfig(); err != nil {
